@@ -1,3 +1,3 @@
 # video-embedding
 
-Does my gitlab/github mirroring work?
+This project was made to learn how to embed YouTube videos into websites.
