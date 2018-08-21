@@ -1,4 +1,8 @@
 
+.row {
+  margin: 0;
+}
+
 .full {
   height: 100vh;
 }
