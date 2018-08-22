@@ -9,20 +9,23 @@
   </head>
 
   <body>
-    <div class="row justify-content-center align-items-center full">
-      <div class="col-md-8 col-sm-10">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-8 col-sm-10">
-            <div class="card">
-              <iframe width="auto" height="315" src="https://www.youtube.com/embed/j5-l6Cyz9p0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              <div class="card-body">
-                <h5 class="card-title">YouTube video fits any size</h5>
-                <p class="card-text">This was an experiment to see if I can embed a video and resize it to my needs.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
+    <div class="row justify-content-center align-items-center py-5">
+      <div class="col-lg-8 col-md-10">
+        <h1 class="header pb-3">Michael's Blog</h1>
+        <h4 class="sub-header pb-5">I am building this single blog page to demonstrate how to embed a YouTube video and position elements like a news article.</h4>
+        <div class="float-right ml-3">
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/j5-l6Cyz9p0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
+        <p class="text">The first video is an experiment to see if I can embed a video and resize it to my needs. I like to use elements that can be responsive to any size viewport, so I settled on an iframe using width="auto" and height="315". This was a good solution to fit in a bootstrap card but the height is not responsive.</p>
+        <p class="text">I had a lot of trouble getting the height to fit the size of the div box. Usually, the tactic is to set width : 100% and height : auto but the iframe height really just wanted to be too small. For this blog page, however, I like the look of setting explicit heights and widths. I figure if anyone wants to actually watch the videos, they should at least be large enough to view.</p>
+        <p class="text">There is no real reason to watch these video besides. I have a personal log of what is in them and I am using as video proof of my #100DaysofCode challenge. If I want to remember anything I know I have done before. My personal records will let me know which video to look at.</p>
+        <p class="text">These videos are silent because I like to play music or listen to audiobooks while coding. One day I may use them as a vlog or narrate them, but I like how they are for now.</p>
+        <div class="float-left mr-3">
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/U_h420_S82k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <p class="text">The second video is of my screen while I build this blog page. I would really like for this paragraph to wrap around the bottom of the embedded video to see how floating elements really work. Unfortunately, I'm going to have to think of more to say.</p>
+        <p class="text">Bootstrap is a wonderful tool. I like the ability to position elements from the html element. I can quickly write the html and visuallize where I want it with a few shorthand commands. Bootstrap has a lot of other useful tools including modals, buttons, cards, and carousels. All of these prebuilt tools gives you an easy basic structure you can custoize to your needs.</p>
+        <p class="text">If I was to put more time into this page, I would add breaking points for smaller screens. Bootstrap columns (col-md-6) or display (d-sm-flex) shorthands are a beautiful solution to making this page more responsive. The column could set the width of the video players until the viewport was small enough that it would be better to have the video take the full width of the screen. The only reason I'm not going to implement it here, is that I want to show the power of float. Unfortunately, this page looks silly on my phone.</p>
       </div>
     </div>
 
